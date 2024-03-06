@@ -1,0 +1,20 @@
+{
+
+    "description": "Remove CookieWall",
+    "manifest_version": 2,
+    "name": "RemoveCookieWall",
+    "version": "0.5",
+    "homepage_url": "https://github.com/jagedn",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://elpais.com/*", "*://cadenaser.com/*"],
+        "js": ["removeCookieWall.js"]
+    }],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "remove-cookiewall@aguilera.soy"
+        }
+    }
+}
