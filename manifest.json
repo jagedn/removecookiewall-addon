@@ -3,13 +3,17 @@
     "description": "Remove CookieWall",
     "manifest_version": 2,
     "name": "RemoveCookieWall",
-    "version": "0.5",
-    "homepage_url": "https://github.com/jagedn",
+    "version": "0.6",
+    "homepage_url": "https://github.com/jagedn/removecookiewall-addon",
     "icons": {
         "48": "icons/border-48.png"
     },
     "content_scripts": [{
-        "matches": ["*://elpais.com/*", "*://cadenaser.com/*"],
+        "matches": [
+            "*://elpais.com/*",
+            "*://cadenaser.com/*",
+            "*://www.muyinteresante.com/*"
+        ],
         "js": ["removeCookieWall.js"]
     }],
     "browser_specific_settings": {

@@ -1,7 +1,8 @@
 var readyStateCheckInterval;
-
+var counter = 0;
 readyStateCheckInterval = setInterval(function() {
     if (document.readyState === "complete") {
+        counter++;
         const removeParent = ['div.pmConsentWall']; //elpais
         [...removeParent].forEach(s => {
             console.log("search " + s)
@@ -9,9 +10,11 @@ readyStateCheckInterval = setInterval(function() {
             [...divs].forEach(element => {
                 console.log("remove " + s)
                 element.parentNode.remove()
+                document.body.style.overflow = "unset"
+                clearInterval(readyStateCheckInterval);
             });
         });
-        const removeThis = ['div[data-nosnippet="data-nosnippet"]']; //cadenaser
+        const removeThis = ['div[data-nosnippet="data-nosnippet"]', '#mrf-popup']; //cadenaser
         [...removeThis].forEach(s => {
             console.log("search " + s)
             var divs = document.body.querySelectorAll(s);
@@ -20,10 +23,14 @@ readyStateCheckInterval = setInterval(function() {
                 setTimeout(() => {
                     console.log(element);
                     element.remove()
+                    document.body.style.overflow = "unset"
+                    document.body.classList.remove('sxnlzit')
+                    clearInterval(readyStateCheckInterval);
                 }, 1000);
             });
         });
-        document.body.style.overflow = "unset"
-        clearInterval(readyStateCheckInterval);
+        if (counter > 30) {
+            clearInterval(readyStateCheckInterval);
+        }
     }
-}, 3000);
+}, 100);
