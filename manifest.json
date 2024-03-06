@@ -12,7 +12,8 @@
         "matches": [
             "*://elpais.com/*",
             "*://cadenaser.com/*",
-            "*://www.muyinteresante.com/*"
+            "*://www.muyinteresante.com/*",
+            "*://*.xataka.com/*"
         ],
         "js": ["removeCookieWall.js"]
     }],
