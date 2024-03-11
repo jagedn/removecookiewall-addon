@@ -8,6 +8,11 @@ function sanitizeBody() {
     document.body.parentNode.classList.remove('sp-message-open')
 }
 
+function removeMe(element) {
+    element.remove();
+    sanitizeBody();
+}
+
 readyStateCheckInterval = setInterval(function() {
     if (document.readyState === "complete") {
         counter++;
@@ -15,20 +20,21 @@ readyStateCheckInterval = setInterval(function() {
         [...removeParent].forEach(s => {
             var divs = document.body.querySelectorAll(s);
             [...divs].forEach(element => {
-                element.parentNode.remove()
-                sanitizeBody()
-                clearInterval(readyStateCheckInterval);
+                removeMe(element.parentNode);
             });
         });
-        const removeThis = ['div[data-nosnippet="data-nosnippet"]', '#mrf-popup', '#didomi-popup', '[id^="sp_message_container_"]'];
+        const removeThis = [
+            'div[data-nosnippet="data-nosnippet"]',
+            '#mrf-popup',
+            '#didomi-popup',
+            '[id^="sp_message_container_"]',
+            '#cl-consent',
+            'dialog.cookie-policy'
+        ];
         [...removeThis].forEach(s => {
             var divs = document.body.querySelectorAll(s);
             [...divs].forEach(element => {
-                setTimeout(() => {
-                    sanitizeBody()
-                    element.remove()
-                    clearInterval(readyStateCheckInterval);
-                }, 1000);
+                removeMe(element);
             });
         });
         if (counter > 30) {
