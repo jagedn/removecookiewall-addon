@@ -19,5 +19,8 @@
         "gecko": {
             "id": "remove-cookiewall@aguilera.soy"
         }
-    }
+    },
+    "permissions": [
+        "https://raw.githubusercontent.com/jagedn/removecookiewall-addon/"
+    ]
 }

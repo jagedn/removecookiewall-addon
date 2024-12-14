@@ -20,13 +20,18 @@ function removeMe(element) {
 readyStateCheckInterval = setInterval(async function() {
     if (document.readyState === "complete") {
         if (!config) {
-            const data = await fetch("https://raw.githubusercontent.com/jagedn/removecookiewall-addon/refs/heads/main/config.json", {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json',
-                },
-            });
-            config = await data.json()
+            try {
+                const data = await fetch("https://raw.githubusercontent.com/jagedn/removecookiewall-addon/refs/heads/main/config.json", {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json',
+                    },
+                });
+                config = await data.json()
+                console.log(config)
+            } catch (e) {
+                console.log(e)
+            }
         }
         counter++;
         const removeParent = config.parents || [];
