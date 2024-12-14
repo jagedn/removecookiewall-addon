@@ -1,0 +1,21 @@
+{
+    "parents": [
+        "div.pmConsentWall"
+    ],
+    "elements": [
+        "div[data-nosnippet='data-nosnippet']",
+        "#mrf-popup",
+        "#didomi-popup",
+        "[id^='sp_message_container_']",
+        "#cl-consent",
+        "dialog.cookie-policy",
+        ".fc-consent-root",
+        "#ampconsent",
+        "fc-ab-root",
+        "#onetrust-consent-sdk"
+    ],
+    "tags": [
+        "amp-consent",
+        "amp-analytics"
+    ]
+}

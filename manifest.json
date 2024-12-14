@@ -3,10 +3,11 @@
     "description": "Remove CookieWall",
     "manifest_version": 2,
     "name": "RemoveCookieWall",
-    "version": "0.11",
+    "version": "1.0.0",
     "homepage_url": "https://github.com/jagedn/removecookiewall-addon",
     "icons": {
-        "48": "icons/border-48.png"
+        "32": "icons/icon32.png",
+        "16": "icons/icon16.png"
     },
     "content_scripts": [{
         "matches": [
