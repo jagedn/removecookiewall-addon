@@ -13,7 +13,7 @@
         "#ampconsent",
         "fc-ab-root",
         "#onetrust-consent-sdk",
-        "#ez-cookie-dialog-wrapper"
+        "#ez-cmpv2-container"
     ],
     "tags": [
         "amp-consent",
