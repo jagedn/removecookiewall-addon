@@ -12,7 +12,8 @@
         ".fc-consent-root",
         "#ampconsent",
         "fc-ab-root",
-        "#onetrust-consent-sdk"
+        "#onetrust-consent-sdk",
+        "#ez-cookie-dialog-wrapper"
     ],
     "tags": [
         "amp-consent",
