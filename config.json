@@ -13,7 +13,8 @@
         "#ampconsent",
         "fc-ab-root",
         "#onetrust-consent-sdk",
-        "#ez-cmpv2-container"
+        "#ez-cmpv2-container",
+        ".qc-cmp2-container"
     ],
     "tags": [
         "amp-consent",
