@@ -14,7 +14,8 @@
         "fc-ab-root",
         "#onetrust-consent-sdk",
         "#ez-cmpv2-container",
-        ".qc-cmp2-container"
+        ".qc-cmp2-container",
+        ".cky-consent-container"
     ],
     "tags": [
         "amp-consent",
