@@ -15,7 +15,8 @@
         "#onetrust-consent-sdk",
         "#ez-cmpv2-container",
         ".qc-cmp2-container",
-        ".cky-consent-container"
+        ".cky-consent-container",
+        ".cky-overlay"
     ],
     "tags": [
         "amp-consent",
