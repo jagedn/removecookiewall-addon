@@ -17,7 +17,8 @@
         "#ez-cmpv2-container",
         ".qc-cmp2-container",
         ".cky-consent-container",
-        ".cky-overlay"
+        ".cky-overlay",
+        ".utiq__overlay"
     ],
     "tags": [
         "amp-consent",
