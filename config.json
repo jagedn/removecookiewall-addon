@@ -18,7 +18,7 @@
         ".qc-cmp2-container",
         ".cky-consent-container",
         ".cky-overlay",
-        ".utiq__overlay"
+        "#utiq__overlay"
     ],
     "tags": [
         "amp-consent",
