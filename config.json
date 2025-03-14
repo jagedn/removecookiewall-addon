@@ -12,7 +12,7 @@
         "dialog.cookie-policy",
         ".fc-consent-root",
         "#ampconsent",
-        "fc-ab-root",
+        ".fc-ab-root",
         "#onetrust-consent-sdk",
         "#ez-cmpv2-container",
         ".qc-cmp2-container",
