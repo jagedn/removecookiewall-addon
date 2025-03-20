@@ -19,7 +19,8 @@
         ".cky-consent-container",
         ".cky-overlay",
         "#utiq__overlay",
-        ".snigel-cmp-framework"
+        ".snigel-cmp-framework",
+        ".gdpr-lmd-wall"
     ],
     "tags": [
         "amp-consent",
