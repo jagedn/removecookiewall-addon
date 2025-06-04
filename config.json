@@ -21,8 +21,7 @@
         "#utiq__overlay",
         ".snigel-cmp-framework",
         ".gdpr-lmd-wall",
-        ".qc-cmp2-container",
-        "#edi-paywall-manager"
+        ".qc-cmp2-container"
     ],
     "tags": [
         "amp-consent",
