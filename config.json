@@ -23,7 +23,8 @@
         ".gdpr-lmd-wall",
         ".qc-cmp2-container",
         "#edi-paywall-manager",
-        ".bbc-n7zdg2"
+        ".bbc-n7zdg2",
+        "fides-overlay"
     ],
     "tags": [
         "amp-consent",
