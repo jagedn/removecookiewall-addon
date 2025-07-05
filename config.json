@@ -24,7 +24,8 @@
         ".qc-cmp2-container",
         "#edi-paywall-manager",
         ".bbc-n7zdg2",
-        "#fides-overlay"
+        "#fides-overlay",
+	"#cmpbox"
     ],
     "tags": [
         "amp-consent",
