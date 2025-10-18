@@ -26,7 +26,8 @@
         ".bbc-n7zdg2",
         "#fides-overlay",
 	    "#cmpbox",
-        ".ue-cintillo-premium-scroll-paywall-desktop"
+        ".ue-cintillo-premium-scroll-paywall-desktop",
+        ".CybotCookiebotDialogContentWrapper"
     ],
     "tags": [
         "amp-consent",
