@@ -25,9 +25,10 @@
         "#edi-paywall-manager",
         ".bbc-n7zdg2",
         "#fides-overlay",
-	    "#cmpbox",
+        "#cmpbox",
         ".ue-cintillo-premium-scroll-paywall-desktop",
-        ".CybotCookiebotDialogContentWrapper"
+        ".CybotCookiebotDialogContentWrapper",
+	"#bannerPopup"
     ],
     "tags": [
         "amp-consent",
