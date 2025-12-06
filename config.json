@@ -28,7 +28,8 @@
         "#cmpbox",
         ".ue-cintillo-premium-scroll-paywall-desktop",
         ".CybotCookiebotDialogContentWrapper",
-	"#bannerPopup"
+	"#bannerPopup",
+        ".ad"
     ],
     "tags": [
         "amp-consent",
