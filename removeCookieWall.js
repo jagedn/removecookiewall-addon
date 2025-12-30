@@ -27,11 +27,16 @@ readyStateCheckInterval = setInterval(async function() {
                         'Accept': 'application/json',
                     },
                 });
-                config = await data.json()
-                console.log(config)
+                config = await data.json()                
             } catch (e) {
                 console.log(e)
             }
+        }
+        const ignoreSite = (config.ignore||[]).includes(location.hostname)
+        if( ignoreSite ){
+            console.log("RemoveCookieWall: Ignore this site")
+            clearInterval(readyStateCheckInterval);
+            return;
         }
         counter++;
         const removeParent = config.parents || [];
