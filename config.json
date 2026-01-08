@@ -1,7 +1,8 @@
 {
     "ignore":[
         "gitlab.com",
-        "learn.microsoft.com"
+        "learn.microsoft.com",
+		"stackoverflow.com"
     ],
     "parents": [
         "div.pmConsentWall"
