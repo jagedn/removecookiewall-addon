@@ -3,7 +3,8 @@
         "gitlab.com",
         "learn.microsoft.com",
 		"stackoverflow.com",
-		"vercel.com"
+		"vercel.com",
+		"leer.amazon.es"
     ],
     "parents": [
         "div.pmConsentWall"
