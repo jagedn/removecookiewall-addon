@@ -35,7 +35,8 @@
         "#cmpbox",
         ".ue-cintillo-premium-scroll-paywall-desktop",
         ".CybotCookiebotDialogContentWrapper",
-	"#bannerPopup",
+		"#bannerPopup",
+		"#cmpwrapper",
         ".ad"
     ],
     "tags": [
