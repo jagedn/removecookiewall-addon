@@ -4,7 +4,8 @@
         "learn.microsoft.com",
 		"stackoverflow.com",
 		"vercel.com",
-		"leer.amazon.es"
+		"leer.amazon.es",
+		"luma.com"
     ],
     "parents": [
         "div.pmConsentWall"
@@ -37,7 +38,7 @@
         ".CybotCookiebotDialogContentWrapper",
 		"#bannerPopup",
 		"#cmpwrapper",
-        ".ad"
+        ".ad"		
     ],
     "tags": [
         "amp-consent",
