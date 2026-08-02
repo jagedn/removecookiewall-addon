@@ -6,7 +6,8 @@
 		"vercel.com",
 		"leer.amazon.es",
 		"luma.com",
-		"hostinger.com"
+		"hostinger.com",
+		"hpanel.hostinger.com"
     ],
     "parents": [
         "div.pmConsentWall"
