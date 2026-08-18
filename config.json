@@ -1,5 +1,6 @@
 {
     "ignore":[
+		"localhost",
         "gitlab.com",
         "learn.microsoft.com",
 		"stackoverflow.com",
