@@ -41,7 +41,8 @@
         ".CybotCookiebotDialogContentWrapper",
 		"#bannerPopup",
 		"#cmpwrapper",
-        ".ad"		
+        ".ad",
+	"#__abconsent-cmp"
     ],
     "tags": [
         "amp-consent",
